@@ -484,76 +484,76 @@
 //     alert("given condition for variable a is true");
 // }
 
-    //ANSWER // 
-    // Displayed
+//ANSWER // 
+// Displayed
 
-    // b. var b = 82;
-    // if (b++ === 83){
-    // alert("given condition for variable b is true");
-    // }
-    
-    //ANSWER // 
-    // NOT Displayed
+// b. var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
 
-
-
-    
-    //  var c = 12;
-    // if (c++ === 13){
-    // alert("condition 1 is true");
-    // }
-    
-    //ANSWER // 
-    // NOT Displayed
+//ANSWER // 
+// NOT Displayed
 
 
 
-    // if (c === 13){
-    // alert("condition 2 is true");
-    // }
 
-    //ANSWER // 
-    //  Displayed
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
 
-    // if (++c < 14){
-    // alert("condition 3 is true");
-    // }
-    //ANSWER // 
-    // NOT Displayed
-
-    // if(c === 14){
-    // alert("condition 4 is true");
-    // }
-    //ANSWER // 
-    //  Displayed
+//ANSWER // 
+// NOT Displayed
 
 
 
-    // d. var materialCost = 20000;
-    // var laborCost = 2000;
-    // var totalCost = materialCost + laborCost;
-    // if (totalCost === laborCost + materialCost){
-    // alert("The cost equals");
-    // }
-    //ANSWER // 
-    //  Displayed
+// if (c === 13){
+// alert("condition 2 is true");
+// }
 
-    // e. if (true){
-    // alert("True");
-    // }
-    // if (false){
-    // alert("False");
-    // }
-    
-    // f. if("car" < "cat"){
-    //     alert("car is smaller than cat");
-    //     }
-        
-    //ANSWER // 
-    //  Displayed
+//ANSWER // 
+//  Displayed
+
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+//ANSWER // 
+// NOT Displayed
+
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+//ANSWER // 
+//  Displayed
 
 
-        /////=============Question # 06 ======//////
+
+// d. var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//ANSWER // 
+//  Displayed
+
+// e. if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+// f. if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+
+//ANSWER // 
+//  Displayed
+
+
+/////=============Question # 06 ======//////
 
 // var sub1 = parseInt(prompt("Enter Subject 1 Mark"));
 // var sub2 = parseInt(prompt("Enter Subject 2 Mark"));
@@ -594,7 +594,7 @@
 // }
 
 
-        /////=============Question # 07 ======//////
+/////=============Question # 07 ======//////
 
 // var secretNum = 8;
 // var userNum = parseInt(prompt("Enter a scret Number" , "Range 1 to 10"))
@@ -610,7 +610,7 @@
 // }
 
 
-        /////=============Question # 08 ======//////
+/////=============Question # 08 ======//////
 // var num = parseInt(prompt("Please enter a number"));
 // var divisible = num % 3;
 // if(divisible === 0 ) {
@@ -620,7 +620,7 @@
 //     alert("Your Number is not Divisible by 3")
 // }
 
-        /////=============Question # 09 ======//////
+/////=============Question # 09 ======//////
 
 // var number = parseInt(prompt("Please enter a Number"));
 // var even = number % 2 ;
@@ -630,8 +630,8 @@
 // else{
 //     alert("YOUR NUMBER IS ODD")
 // }
-         
-        /////=============Question # 09 ======//////
+
+/////=============Question # 09 ======//////
 
 // var temp = parseInt(prompt("Enter weather Temperation"));
 // if(temp>=40 ){
@@ -647,7 +647,7 @@
 //     alert("OMG! Today’s weather is so Cool.")
 // }
 
-        /////=============Question # 10 ======//////
+/////=============Question # 10 ======//////
 
 // var num1  = parseInt(prompt("Enter Number 1"));
 // var opt  = prompt("Enter Operator");
@@ -669,9 +669,9 @@
 // }
 
 
-    //////xxxxxx======xxxxx END =======xxxxx//////////
+//////xxxxxx======xxxxx END =======xxxxx//////////
 
-    
+
 
 
 /////============ CHAPTER NO 12 - 13  ========/////
@@ -792,32 +792,32 @@
 
 
 
-            /////============ CHAPTER NO 14 - 16 ========/////
+/////============ CHAPTER NO 14 - 16 ========/////
 
-            /////=============Question # 01 ======//////
+/////=============Question # 01 ======//////
 
 // var stdNames = []
 
 
 
-            /////=============Question # 02 ======//////
+/////=============Question # 02 ======//////
 
 // var stdName = new Array()
 
-            /////=============Question # 03 ======//////
+/////=============Question # 03 ======//////
 // var stringArr = ["Jaffar" , "Aman" , "bilal"]            
 
-            /////=============Question # 04 ======//////
+/////=============Question # 04 ======//////
 // var numbersArr = [20 ,50 , 100 , 80];
-            
 
-            /////=============Question # 05 ======//////
+
+/////=============Question # 05 ======//////
 // var boolarray = [true , true , false ,true]            
-            
-            /////=============Question # 06 ======//////
+
+/////=============Question # 06 ======//////
 // var mixArray = [50 , "Jaffar" , true];
 
-            /////=============Question # 07 ======//////
+/////=============Question # 07 ======//////
 
 // var qualifications = ["SSC", "HSC", "BCS","BS", "BCOM", "MS","M. Phil.", "PhD"]
 // document.write("Qualifications: <br>")            
@@ -825,7 +825,7 @@
 //     document.write(` <br>
 //                     ${i+1}) ${qualifications[i]}`)
 // }
-            /////=============Question # 08 ======//////
+/////=============Question # 08 ======//////
 
 // var stdNames = ["Jaffar" , "Sir Ali" , "Basit"];
 // var stdMarks = [320 , 230, 480];
@@ -835,14 +835,14 @@
 // }
 
 
-            /////=============Question # 09 ======//////
+/////=============Question # 09 ======//////
 // var colorName = [ "red" , "Blue" , "Purple" , "Black"];
 // document.write (" COLOR Name =>" + " " + colorName + "<br>")
 //Part(A)
 // var addColor = prompt("Add color to the beginning of the array.");
 // colorName.unshift(addColor)
 // document.write(  "ADD COLOR =>" + " "  +colorName)
- 
+
 //PART(B)
 // var addColor2 = prompt("Add color to the End of the array.");
 // colorName.push(addColor2)
@@ -876,14 +876,14 @@
 
 
 
-            /////=============Question # 10 ======//////
+/////=============Question # 10 ======//////
 
 // var stdScore = [320,230,480,120];
 // document.write( "BEFORE SORTING :  " + " " + stdScore + "<br>")
 //  stdScore.sort()
 // document.write( "AFTER SORTING :  " + " " + stdScore)
 
-            /////=============Question # 11 ======//////
+/////=============Question # 11 ======//////
 
 // var cities = ["karachi" , "Lahore" , "Islamabad" , "Queeta" , "Peshawar"];
 // var selectedCities = cities.slice(2,4)
@@ -892,13 +892,13 @@
 
 
 
-            /////=============Question # 12 ======//////
+/////=============Question # 12 ======//////
 
 // var stringg = ["This" , "is" , "my" , "cat"];
 // var arr= stringg.join(" ")            
 // document.write(arr)
 
-            /////=============Question # 13 ======//////
+/////=============Question # 13 ======//////
 
 // var devices = ["keyboard" , "mouse" , "printer" , "monitor"];
 // for(var i = 0 ; i<devices.length;i++){
@@ -907,7 +907,7 @@
 // }            
 
 
-            /////=============Question # 14 ======//////
+/////=============Question # 14 ======//////
 // var devices = ["keyboard" , "mouse" , "printer" , "monitor"];
 // document.write(`out : <br>
 //                 ${devices[3]} <br>
@@ -917,8 +917,8 @@
 //                 ${devices[1]} <br>
 //                 out : <br>
 //                 ${devices[0]} <br>`)
-            
-            /////=============Question # 15 ======//////
+
+/////=============Question # 15 ======//////
 
 // var mobiles = ["Apple","Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
 // document.write("<select>")
@@ -927,3 +927,282 @@
 // }            
 // document.write("</select>")            
 
+
+///////xxxx===========xxxxxxx///////////xxxxxxxxxxxxx///////////
+
+
+
+
+/////////CHAPTER NO 17 -20 OBJECTS START///////////////
+
+/////=============Question # 1 ======//////
+
+// var multiArray = [[]];
+
+/////=============Question # 02 ======//////
+// var multiArray = new Array(3);
+// multiArray[0] = new Array(0 , 1 , 2 , 3)
+// multiArray[1] = new Array(1 , 0 , 1, 2)
+// multiArray[2] = new Array(2 , 1 , 0 , 1)
+// document.write(multiArray[0].join(" ") + "<br />")
+// document.write(multiArray[1].join(" ") + "<br />")
+// document.write(multiArray[2].join(" ") + "<br />")
+/////=============Question # 03 ======//////
+
+// for(var i = 1 ; i<=10 ; i++){
+//         document.write(i + "<br />")
+// }
+
+/////=============Question # 04 ======//////
+
+// var tabNum = parseInt(prompt("Enter Table Number :"));
+// var tabLenght = parseInt(prompt("Enter Table Lenght :"));
+// document.write(`Multiplication table of ${tabNum} <br / > Lenght ${tabLenght } <br />`  ) 
+// for(var i = 1  ; i<=tabLenght ; i++){
+//         document.write(`${tabNum} x ${i} = ${tabNum * i} <br /> `)
+// }
+
+
+
+/////=============Question # 05 ======//////
+
+// let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for(var value of fruits){
+//         document.write(value + "<br />" )
+// }
+// for(var prop in fruits){
+//         document.write(`Element at index ${prop} is ${fruits[prop]} <br/>`
+//         )
+// }
+
+
+/////=============Question # 06 ======//////
+
+// document.write(`<b>Counting:</b> <br / > <br />`)
+// for (var i = 1; i <= 15; i++) {
+//         document.write(i + ",")
+// }
+// document.write(` <br /> <br /> <b>Reverse Counting:</b> <br / > <br />`)
+// for (var a = 10; a >= 1; a--) {
+//         document.write(a + ", ")
+// }
+
+// document.write(` <br /> <br /> <b>Even:</b> <br / > <br />`)
+// for (var b = 0; b <=20; b = b + 2) {
+//         document.write(b + ", ")
+// }
+
+
+// document.write(` <br /> <br /> <b>Odd:</b> <br / > <br />`)
+// for (var c = 0; c <=20; c = c + 3) {
+//         document.write(c + ", ")
+// }
+
+
+// document.write(` <br /> <br /> <b>Series:</b> <br / > <br />`)
+// for (var d = 2; d <=20; d = d + 2) {
+//         document.write(d + "k" + ", ")
+// }
+
+
+
+/////=============Question # 07 ======//////
+
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var search = prompt("Welcome to ABC Bakery!").toLowerCase()
+// var boolsearch = "true"
+// for (var i = 0; i < A.length; i++) {
+//         if (search === A[i]) {
+//                 var boolsearch = "false"
+//                 alert(`${search} is Available at index ${i } in our bakery`)
+//         }
+// }
+// if(boolsearch === "true"){
+//         alert(`We are sorry. ${search} is  not Available  in our Bakery`)
+// }
+
+
+/////=============Question # 08 ======//////
+
+// var arr = [20, 50, 40, ];
+// var largestt = Math.max(...arr)
+// console.log(largestt)
+// var largest = 0;
+// for (var i = 0; i < arr.length; i++) {
+//         if(arr > largest){
+//                 var largest = arr[i]
+//         }
+// }
+// console.log(largest)
+
+
+// var arr = [24, 53, 78, 91, 12 ]
+// var largest = 0;
+// for (var i = 0; i < arr.length; i++){
+//         if(arr[i] > largest ){
+//                 largest = arr[i]
+//         }
+// }
+// console.log(largest)
+
+// var arr2 = [24, 53, 78, 91, 12];
+// var smallest = arr2[0] ;
+// for(var a = 0 ; a<arr2.length ; a++){
+//         if( smallest > arr2[a]){
+//                 var smallest = arr2[a]
+//         }
+// }
+// console.log(smallest)
+
+
+// var smallestt = Math.min(...arr2)
+// console.log(smallestt)
+
+
+/////=============Question # 10 ======//////
+
+// for (var i = 5 ; i<=100 ; i = i +5  ){
+//         document.write(i + ",")
+// }
+
+
+
+/////============ CHAPTER NO 21 - 25  ========/////
+
+/////=============Question # 01 ======//////
+
+// var firstName = prompt("Enter First Name");
+// var lastName = prompt("Enter Last Name");
+// var fullName = firstName.concat( " " + lastName);
+// alert("Assalamualium " + " " + fullName)
+
+
+
+// /////=============Question # 02 ======//////
+// var userMobile = prompt("favorite mobile phone model");
+// document.write(`My favorite phone is: ${userMobile} <br /> lenght of String: ${userMobile.length}`)
+
+
+// /////=============Question # 03 ======//////
+
+// let word = "Pakistani"
+// document.write(`String: ${word} <br /> Index of 'n': ${word.indexOf("n")}`)
+
+// /////=============Question # 04 ======//////
+// let word = "Hello World"
+// document.write(`String: ${word} <br /> Last Index of 'l': ${word.lastIndexOf("l")}`)
+
+
+// /////=============Question # 05 ======//////
+// var word  = "Pakistani";
+// document.write(`Sring: ${word} <br/> Character at index "3" : ${word.charAt(3)}`)
+
+
+
+
+// /////=============Question # 07 ======//////
+// var word = "Hyderabad"
+// var replace = word.replace("Hyder" ,"Islam")
+// console.log(replace)
+
+// /////=============Question # 08 ======//////
+
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var replace = message.replace(/and/g, "&"  )
+// console.log(replace)
+
+// /////=============Question # 09 ======//////
+
+// var stringNum = "472"
+// document.write("value: " + stringNum + "<br />" + "Type: " + typeof(stringNum))
+// var num = parseInt(stringNum)
+// document.write(` <br/>Value: ${num} <br/> Type:  ${typeof(num)}`)
+
+
+// /////=============Question # 10 ======//////
+
+
+// var wordCap = prompt("Enter any words:");
+// document.write(`User Input : ${wordCap} <br> UPPER CASE : ${wordCap.toUpperCase()}`)
+
+
+
+// /////=============Question # 11 ======//////
+
+// var userInput = prompt("enter Any word");
+// document.write(userInput.slice(0,1).toUpperCase() + userInput.slice(1,userInput.length).toLowerCase() )
+
+
+
+///////=============Question # 12 ======//////
+
+// var num = 35.36
+// var string = num.toString().replace("." , "");
+// document.write(`Number: ${num} <br> Result: ${string}`)
+
+
+///////=============Question # 13 ======//////
+
+// var names = prompt("UserName:")
+// for(var i=0;i<names.length;i++){
+//         if(names[i].charCodeAt() === 33 || names[i].charCodeAt() === 44 || names[i].charCodeAt() === 46 || names[i].charCodeAt() === 64 ){
+//                 alert("Please enter a valid userName")
+//         }
+// }
+// console.log(names)
+
+///////=============Question # 14 ======//////
+
+// var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var searchItem = prompt("What you want to order:").toLowerCase();
+// var indeNum = bakeryItems.indexOf(searchItem)
+// console.log(indeNum)
+// if(bakeryItems.indexOf(searchItem) !== -1){
+//         document.write(`${searchItem} is Available at Index ${bakeryItems.indexOf(searchItem)} in our Bakery`)
+        
+// }
+
+// else{
+//         document.write(`${searchItem} is Not Available in our Bakery`)
+        
+// }
+
+
+///////=============Question # 15 ======//////
+
+// var password = prompt("Enter Password!");
+// var pass_validation = /^[a-zA-Z0-9!$@]{1,}$/
+// if(password !== ""){
+//         if(!password.match(pass_validation)){
+//                 alert("Please enter a valid Password")
+//         }
+//         else{
+//                 alert("Password is Correct")
+//         }
+
+// }
+
+
+// else{
+//         alert("Please fill up password field")
+// }
+
+///////=============Question # 16 ======//////
+// var university = "University of Karachi";
+// var arr = university.split("")
+// document.write(arr.join("<br />")  )
+
+
+///////=============Question # 17 ======//////
+
+// var user = prompt("enter word");
+// document.write( "user Input: " + user + "<br />" + "Last Character of input : "  + user.charAt(user.length-1))
+// document.write( "user Input: " + user + "<br />" + "Last Character of input : "  + user.slice(user.length-1))
+
+
+
+///////=============Question # 18 ======//////
+
+var string = "The quick brown fox jumps over the lazy dog".toLowerCase();
+var count = string.match(/the/g)
+console.log(count.length)
