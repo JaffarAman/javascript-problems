@@ -1203,6 +1203,459 @@
 
 ///////=============Question # 18 ======//////
 
-var string = "The quick brown fox jumps over the lazy dog".toLowerCase();
-var count = string.match(/the/g)
-console.log(count.length)
+// var string = "The quick brown fox jumps over the lazy dog".toLowerCase();
+// var count = string.match(/the/g)
+// console.log(count.length)
+
+    //////////////xxxxxxxxxxxx///////////////xxxxxxxxxxxx//////////
+
+
+
+/////============ CHAPTER NO 26 - 30 ========/////
+
+
+    ///////=============Question # 01 ======//////
+
+// var num = prompt("Enter Positive Integer Number");
+// var floor = Math.floor(num);
+// var round = Math.round(num);
+// var ceil = Math.ceil(num);
+// document.write(`Number: ${num} <br> 
+//                 Round off value: ${round} <br>
+//                 Floor value: ${floor} <br>
+//                 Ceil value: ${ceil}`)
+
+
+    ///////=============Question # 02 ======//////
+
+    // var num = prompt("Enter Negative Integer Number");
+    // var floor = Math.floor(num);
+    // var round = Math.round(num);
+    // var ceil = Math.ceil(num);
+    // document.write(`Number: ${num} <br> 
+    //                 Round off value: ${round} <br>
+    //                 Floor value: ${floor} <br>
+    //                 Ceil value: ${ceil}`)
+    
+    
+    ///////=============Question # 03 ======//////
+
+// var num = -4;
+// var abs = Math.abs(num)
+// document.write(`The Absolute value of ${num} is ${abs}`)    
+
+
+    ///////=============Question # 04 ======//////
+
+// var dice = Math.random() *6 +1
+// var dicefloor = Math.floor(dice)
+// // console.log(dicefloor)    
+// document.write(`Random dice is : ${dicefloor}`)
+
+
+    ///////=============Question # 05 ======//////
+
+// var coin = Math.random() * 2 +1 ;
+// coin = Math.floor(coin);
+// console.log(coin)
+// if(coin === 2){
+//     document.write(`${coin} <br> Random coin values : Heads`)
+// }else if(coin === 1){
+//     document.write(`${coin} <br> Random coin values : Tails`)
+    
+// }    
+
+    ///////=============Question # 06 ======//////
+// var number = Math.random() * 100 + 1;
+// number = Math.floor(number);
+// document.write(`Random number b/w 1 to 100: ${number}`)    
+
+    ///////=============Question # 07 ======//////
+
+// var user = (prompt("Enter your weight in kilograms"));
+// document.write(`The weight of user is ${user} kilograms`)
+
+    ///////=============Question # 08 ======//////
+
+// var user = parseInt(prompt("Enter Secret Number:"));
+// var randomNum = Math.random() * 10 + 1;
+// randomNum = Math.floor(randomNum)
+// console.log(randomNum)
+// if(user === randomNum){
+//     alert("COngrats YOU WIN")
+// }   
+// else{
+//     alert("Next time")
+// }
+
+    ///////=============CHAPTER ENDDD ======//////
+
+    
+/////============ CHAPTER NO 31 - 34  ========/////
+
+
+    ///////=============Question # 01 ======//////
+
+// document.write(new Date())
+
+    ///////=============Question # 02 ======//////
+
+// var now  = new Date().toString().slice(4,7)
+// document.write(`Current Month: ${now}`)
+
+    ///////=============Question # 03 ======//////
+
+// var now = new Date().toString().slice(0,3);
+// document.write(`Today is ${now}`)
+
+    ///////=============Question # 04 ======//////
+
+// var now = new Date().toString().slice(0,3);
+
+// if(now ==="sun" || now === "sat"){
+//         alert("its Funday")
+// }else{
+//     alert( "Today is  :" + " " + now)
+// }
+
+    ///////=============Question # 05 ======//////
+
+// var now  = new Date().getDate();
+// if(now <= 15 ){
+//         alert("First Fifteen Days of th Month")
+// }else{
+//     alert("Last days of the month")
+// }
+
+    ///////=============Question # 06 ======//////
+// var now  = new Date()
+// var milis = now.getTime()
+// var min = now / (1000 * 60*60);
+// document.write(now + " <br>" + milis + "<br>" + min)
+
+    ///////=============Question # 07 ======//////
+
+// var now = new Date().getHours()
+// if(now >= 0 && now < 12 ){
+//     alert("It's AM")
+// }else{
+//     alert("It's PM")
+// }
+
+// console.log(now)    
+    
+
+    ///////=============Question # 08 ======//////
+
+// var nows = new Date("December , 31 2020")
+// document.write(nows)    
+
+
+    ///////=============Question # 09 ======//////
+
+// var ramzanDate = new Date("June 18 ,2015");
+// var now = new Date();
+// var miliram = ramzanDate.getTime();
+// var nowmili = now.getTime();
+// var differ =  nowmili - miliram;
+// var totalDays = differ / (1000*60*60*24)
+// totalDays = Math.floor(totalDays)
+// document.write(`${totalDays} Days have passed since 1st Ramzan, 2015`);
+
+
+    ///////=============Question # 10 ======//////
+
+// var now = new Date("Dec 1 , 2015");
+// var nowmili = now.getTime()
+// var dated = new Date("Dec 25 ,2015").getTime();
+// var differ = dated  - nowmili  
+// var totalSec = differ / (1000)
+// totalSec = Math.floor(totalSec)
+// document.write(`on reference Date ${now} <br> ${totalSec} Seconds had passed since beginning of 2015 `)
+
+
+    ///////=============Question # 11 ======//////
+
+// var now = new Date();
+// var oneHours = now.setHours()
+// document.write(now)    
+// document.write(oneHours)    
+
+    ///////=============Question # 12 ======//////
+// var now = new Date()
+// var year = new Date()
+// year.setFullYear(1915)
+// alert(`TODAY : ${now} \n 100 years Back : ${year}`)
+// console.log(year)
+
+    ///////=============Question # 13 ======//////
+    
+// var age = +prompt("Your age ?");
+// var now = new Date().getFullYear()
+// var ageCalc = now - age
+// document.write(`YOUR Age is: ${age} <br>
+//                 Your Birth Year is: ${ageCalc}`)
+
+
+
+
+    ///////=============Question # 14 ======//////
+
+// var dated = new Date();
+// var month = dated.getMonth();
+// var ConsumerName = "ABC"
+// var unitNum = 410;
+// var chargesPerUnit = 16;
+// var netAmount = unitNum * chargesPerUnit;  
+// var lateCharges = 350 ; 
+// var grossAmount = netAmount + lateCharges;
+// document.write(`<b>K - ELECTRIC BILL </b> <br />
+//                 Customer Name : ${ConsumerName} <br>
+//                 Month : ${month} <br>
+//                 Numbers of units : ${unitNum} <br>
+//                 Chages per unit: ${chargesPerUnit} <br>
+//                 <br>
+//                 <br>
+//                 Net Amount : (With in due Date: ) ${netAmount} <br>
+//                 Late Charges : ${lateCharges} <br>
+//                 Groos Amount : ${grossAmount}`)
+/////============ CHAPTER END ========/////
+
+
+    
+
+
+
+    /////============ CHAPTER NO 35 - 38  ========/////
+
+    ///////=============Question # 01 ======//////
+
+// function dated(now){
+//         document.write(now)
+// }   
+// dated(new Date())
+
+    ///////=============Question # 02 ======//////
+
+// function greet(firstName , lastName){
+//     alert(`Hello ${firstName + " " + lastName }`)
+// }    
+
+// greet("Jaffar" , "Aman")
+
+
+    ///////=============Question # 03 ======//////
+
+// var num1 = parseInt(prompt("Enter Number 1"));
+// var num2 = parseInt(prompt("Enter Number 2"));
+
+// function add(){
+//         return num1 + num2
+// }
+// var adding = add()
+// document.write(adding)
+
+    ///////=============Question # 04 ======//////
+
+// function calc(num1 , opt , num2 ){
+//         if(opt === "+"){
+//             return num1 + num2 
+//         }
+//         else if(opt === "-"){
+//             return num1  - num2 
+//         }else if(opt === "*"){
+//             return num1  * num2 
+//         }else if(opt === "/"){
+//             return num1  / num2 
+//         }
+//         else{
+//             return "Enter Correct operator"
+//         }
+// }    
+// var num1 = parseInt(prompt("enter number 1"))
+// var opt = prompt("enter opt");
+// var num2 = parseInt(prompt("enter number 1"))
+
+// var add = calc(num1 , opt , num2)
+// document.write(`Number 1: ${num1} <br> Operator ${opt} <br> Numeber 2: ${num2} <br> Calculation : ${add} `)
+
+
+    ///////=============Question # 05 ======//////
+
+// function squareValues(num){
+
+//         var square = num * num
+//     return square
+// }
+// var value = parseInt(prompt("enter square value"));
+// var functionValue = squareValues(value);
+// document.write(`Your Value: ${value} <br> Square Value : ${functionValue}`  )
+
+
+    ///////=============Question # 06 ======//////
+
+//  function factorial(num){
+//      var sum = 1;
+//     for(var i = num ; i>= 1 ; i-- ){
+//             sum = sum * i
+//         } 
+//         return sum
+// }
+
+// var funValue = factorial(10);
+// document.write("Factorial Value: " + " " + funValue)
+
+    ///////=============Question # 07 ======//////
+
+
+// function counting(startValue , endValue){
+//     for(var i = startValue ; i <= endValue ; i++){
+            
+//          document.write(i  + " <br>") 
+
+//     }
+
+// }    
+// var startNum = parseInt(prompt("Enter Start Value"))
+// var endNum = parseInt(prompt("Enter End Value"))
+// counting(startNum , endNum)
+
+
+    ///////=============Question # 08 ======//////
+// function hypo(val1 , val2){
+
+//         return Math.sqrt(Math.pow(val1 , 2) + Math.pow(val2 , 2));
+// }
+// var base = parseInt(prompt("Enter Base Value: " ))
+// var per = parseInt(prompt("Enter perpendicular Value: "))
+// var hyopValue = hypo(base , per)
+// document.write(hyopValue)
+
+    ///////=============Question # 09 ======//////
+// function rectangle(width , heigth){
+//         var A = width * heigth;
+//         return A
+// }
+// var w = parseInt(prompt("Enter WIDTH"))
+// var h = parseInt(prompt("Enter HEIGHT"))
+// document.write(rectangle(w , h))
+
+    ///////=============Question # 10 ======//////
+
+// function pali(str){
+//     var re = /[\W]/g;
+//     var lowerstr = str.toLowerCase().replace(re,"");
+//     var reversestr = lowerstr.split("").reverse().join("");
+//     return reversestr === lowerstr
+
+// }   
+
+// console.log(pali("madam"))
+
+    ///////=============Question # 11 ======//////
+
+// function foo(para){
+
+//         var word = para.split(" ")
+//         var arr1 = [];
+//         for(var i = 0 ; i < word.length ; i++){
+//             arr1.push(word[i].charAt(0).toUpperCase() + word[i].slice(1))
+//         }
+//         return arr1.join(" ")
+
+// }    
+// var userPara = prompt("Enter any line:")
+
+// document.write(foo(userPara));
+
+
+// var word = "the quick brown fox";
+// var split = word.split(" ")
+// var arr = [];
+// for(var i = 0 ; i<split.length ; i ++){
+//         arr.push(split[i][0].toUpperCase() + split[i].slice(1))
+// }
+// console.log(arr)
+
+
+
+
+    ///////=============Question # 12 ======//////
+
+// function length(letter){
+
+//     var word = letter.split(" ");
+//     var arr = word[0];
+//     for(var  i = 0 ; i<word.length ; i++){
+//         if(arr.length < word[i].length){
+//                 arr = word[i]
+//         }
+//     }
+//     return arr
+// }
+// document.write(length("Web Development  Tutorial "))
+
+
+    ///////=============Question # 13 ======//////
+// function letterCount(str , letter){
+//     var count = 0;
+//     for(var i = 0 ; i < str.length ; i++){
+//         if(str.charAt(i) == letter){
+//             count++
+//         }
+//     }
+
+
+//     return count
+// }
+// var Userstring = prompt("Enter any String Word")
+// var userChar = prompt("Enter any Word Character")
+// var result = letterCount(Userstring ,userChar)
+// document.write(`User Argument : ${Userstring}
+//                 <br> User Letter : ${userChar} <br>
+//                 word count: ${result}`)
+
+    ///////=============Question # 14 ======//////
+
+// function calcCircumference(radius){
+//         var circumference = 2*(Math.PI * radius);
+//         return circumference
+// }
+// function calcArea(radius){
+//     var   area = Math.PI * (radius * radius)
+//     return area
+// }
+
+// var circumferenceResult = calcCircumference(20).toFixed(3);
+// var areaResult = calcArea(10).toFixed(3);
+
+// document.write(`"The circumference is NN". ${circumferenceResult} <br>`)
+// document.write(`"The area is NN". ${areaResult}`)
+
+// console.log(calcArea(20))
+// // console.log(calcCircumference(20))
+
+
+
+/////============ CHAPTER END ========/////
+
+
+/////============ CHAPTER NO  38- 42   ========/////
+
+    ///////=============Question # 01 ======//////
+
+
+// function power(a,b){
+//     document.write(Math.pow(a,b))
+// }
+// power(2,3)
+
+
+    ///////=============Question # 02 ======//////
+    
+
+
+
+
+
+    
