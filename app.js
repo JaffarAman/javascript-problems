@@ -1159,12 +1159,12 @@
 // console.log(indeNum)
 // if(bakeryItems.indexOf(searchItem) !== -1){
 //         document.write(`${searchItem} is Available at Index ${bakeryItems.indexOf(searchItem)} in our Bakery`)
-        
+
 // }
 
 // else{
 //         document.write(`${searchItem} is Not Available in our Bakery`)
-        
+
 // }
 
 
@@ -1207,14 +1207,14 @@
 // var count = string.match(/the/g)
 // console.log(count.length)
 
-    //////////////xxxxxxxxxxxx///////////////xxxxxxxxxxxx//////////
+//////////////xxxxxxxxxxxx///////////////xxxxxxxxxxxx//////////
 
 
 
 /////============ CHAPTER NO 26 - 30 ========/////
 
 
-    ///////=============Question # 01 ======//////
+///////=============Question # 01 ======//////
 
 // var num = prompt("Enter Positive Integer Number");
 // var floor = Math.floor(num);
@@ -1226,26 +1226,26 @@
 //                 Ceil value: ${ceil}`)
 
 
-    ///////=============Question # 02 ======//////
+///////=============Question # 02 ======//////
 
-    // var num = prompt("Enter Negative Integer Number");
-    // var floor = Math.floor(num);
-    // var round = Math.round(num);
-    // var ceil = Math.ceil(num);
-    // document.write(`Number: ${num} <br> 
-    //                 Round off value: ${round} <br>
-    //                 Floor value: ${floor} <br>
-    //                 Ceil value: ${ceil}`)
-    
-    
-    ///////=============Question # 03 ======//////
+// var num = prompt("Enter Negative Integer Number");
+// var floor = Math.floor(num);
+// var round = Math.round(num);
+// var ceil = Math.ceil(num);
+// document.write(`Number: ${num} <br> 
+//                 Round off value: ${round} <br>
+//                 Floor value: ${floor} <br>
+//                 Ceil value: ${ceil}`)
+
+
+///////=============Question # 03 ======//////
 
 // var num = -4;
 // var abs = Math.abs(num)
 // document.write(`The Absolute value of ${num} is ${abs}`)    
 
 
-    ///////=============Question # 04 ======//////
+///////=============Question # 04 ======//////
 
 // var dice = Math.random() *6 +1
 // var dicefloor = Math.floor(dice)
@@ -1253,7 +1253,7 @@
 // document.write(`Random dice is : ${dicefloor}`)
 
 
-    ///////=============Question # 05 ======//////
+///////=============Question # 05 ======//////
 
 // var coin = Math.random() * 2 +1 ;
 // coin = Math.floor(coin);
@@ -1262,20 +1262,20 @@
 //     document.write(`${coin} <br> Random coin values : Heads`)
 // }else if(coin === 1){
 //     document.write(`${coin} <br> Random coin values : Tails`)
-    
+
 // }    
 
-    ///////=============Question # 06 ======//////
+///////=============Question # 06 ======//////
 // var number = Math.random() * 100 + 1;
 // number = Math.floor(number);
 // document.write(`Random number b/w 1 to 100: ${number}`)    
 
-    ///////=============Question # 07 ======//////
+///////=============Question # 07 ======//////
 
 // var user = (prompt("Enter your weight in kilograms"));
 // document.write(`The weight of user is ${user} kilograms`)
 
-    ///////=============Question # 08 ======//////
+///////=============Question # 08 ======//////
 
 // var user = parseInt(prompt("Enter Secret Number:"));
 // var randomNum = Math.random() * 10 + 1;
@@ -1288,27 +1288,27 @@
 //     alert("Next time")
 // }
 
-    ///////=============CHAPTER ENDDD ======//////
+///////=============CHAPTER ENDDD ======//////
 
-    
+
 /////============ CHAPTER NO 31 - 34  ========/////
 
 
-    ///////=============Question # 01 ======//////
+///////=============Question # 01 ======//////
 
 // document.write(new Date())
 
-    ///////=============Question # 02 ======//////
+///////=============Question # 02 ======//////
 
 // var now  = new Date().toString().slice(4,7)
 // document.write(`Current Month: ${now}`)
 
-    ///////=============Question # 03 ======//////
+///////=============Question # 03 ======//////
 
 // var now = new Date().toString().slice(0,3);
 // document.write(`Today is ${now}`)
 
-    ///////=============Question # 04 ======//////
+///////=============Question # 04 ======//////
 
 // var now = new Date().toString().slice(0,3);
 
@@ -1318,7 +1318,7 @@
 //     alert( "Today is  :" + " " + now)
 // }
 
-    ///////=============Question # 05 ======//////
+///////=============Question # 05 ======//////
 
 // var now  = new Date().getDate();
 // if(now <= 15 ){
@@ -1327,13 +1327,13 @@
 //     alert("Last days of the month")
 // }
 
-    ///////=============Question # 06 ======//////
+///////=============Question # 06 ======//////
 // var now  = new Date()
 // var milis = now.getTime()
 // var min = now / (1000 * 60*60);
 // document.write(now + " <br>" + milis + "<br>" + min)
 
-    ///////=============Question # 07 ======//////
+///////=============Question # 07 ======//////
 
 // var now = new Date().getHours()
 // if(now >= 0 && now < 12 ){
@@ -1343,15 +1343,15 @@
 // }
 
 // console.log(now)    
-    
 
-    ///////=============Question # 08 ======//////
+
+///////=============Question # 08 ======//////
 
 // var nows = new Date("December , 31 2020")
 // document.write(nows)    
 
 
-    ///////=============Question # 09 ======//////
+///////=============Question # 09 ======//////
 
 // var ramzanDate = new Date("June 18 ,2015");
 // var now = new Date();
@@ -1363,7 +1363,7 @@
 // document.write(`${totalDays} Days have passed since 1st Ramzan, 2015`);
 
 
-    ///////=============Question # 10 ======//////
+///////=============Question # 10 ======//////
 
 // var now = new Date("Dec 1 , 2015");
 // var nowmili = now.getTime()
@@ -1374,22 +1374,22 @@
 // document.write(`on reference Date ${now} <br> ${totalSec} Seconds had passed since beginning of 2015 `)
 
 
-    ///////=============Question # 11 ======//////
+///////=============Question # 11 ======//////
 
 // var now = new Date();
 // var oneHours = now.setHours()
 // document.write(now)    
 // document.write(oneHours)    
 
-    ///////=============Question # 12 ======//////
+///////=============Question # 12 ======//////
 // var now = new Date()
 // var year = new Date()
 // year.setFullYear(1915)
 // alert(`TODAY : ${now} \n 100 years Back : ${year}`)
 // console.log(year)
 
-    ///////=============Question # 13 ======//////
-    
+///////=============Question # 13 ======//////
+
 // var age = +prompt("Your age ?");
 // var now = new Date().getFullYear()
 // var ageCalc = now - age
@@ -1399,7 +1399,7 @@
 
 
 
-    ///////=============Question # 14 ======//////
+///////=============Question # 14 ======//////
 
 // var dated = new Date();
 // var month = dated.getMonth();
@@ -1422,20 +1422,20 @@
 /////============ CHAPTER END ========/////
 
 
-    
 
 
 
-    /////============ CHAPTER NO 35 - 38  ========/////
 
-    ///////=============Question # 01 ======//////
+/////============ CHAPTER NO 35 - 38  ========/////
+
+///////=============Question # 01 ======//////
 
 // function dated(now){
 //         document.write(now)
 // }   
 // dated(new Date())
 
-    ///////=============Question # 02 ======//////
+///////=============Question # 02 ======//////
 
 // function greet(firstName , lastName){
 //     alert(`Hello ${firstName + " " + lastName }`)
@@ -1444,7 +1444,7 @@
 // greet("Jaffar" , "Aman")
 
 
-    ///////=============Question # 03 ======//////
+///////=============Question # 03 ======//////
 
 // var num1 = parseInt(prompt("Enter Number 1"));
 // var num2 = parseInt(prompt("Enter Number 2"));
@@ -1455,7 +1455,7 @@
 // var adding = add()
 // document.write(adding)
 
-    ///////=============Question # 04 ======//////
+///////=============Question # 04 ======//////
 
 // function calc(num1 , opt , num2 ){
 //         if(opt === "+"){
@@ -1480,7 +1480,7 @@
 // document.write(`Number 1: ${num1} <br> Operator ${opt} <br> Numeber 2: ${num2} <br> Calculation : ${add} `)
 
 
-    ///////=============Question # 05 ======//////
+///////=============Question # 05 ======//////
 
 // function squareValues(num){
 
@@ -1492,7 +1492,7 @@
 // document.write(`Your Value: ${value} <br> Square Value : ${functionValue}`  )
 
 
-    ///////=============Question # 06 ======//////
+///////=============Question # 06 ======//////
 
 //  function factorial(num){
 //      var sum = 1;
@@ -1505,12 +1505,12 @@
 // var funValue = factorial(10);
 // document.write("Factorial Value: " + " " + funValue)
 
-    ///////=============Question # 07 ======//////
+///////=============Question # 07 ======//////
 
 
 // function counting(startValue , endValue){
 //     for(var i = startValue ; i <= endValue ; i++){
-            
+
 //          document.write(i  + " <br>") 
 
 //     }
@@ -1521,7 +1521,7 @@
 // counting(startNum , endNum)
 
 
-    ///////=============Question # 08 ======//////
+///////=============Question # 08 ======//////
 // function hypo(val1 , val2){
 
 //         return Math.sqrt(Math.pow(val1 , 2) + Math.pow(val2 , 2));
@@ -1531,7 +1531,7 @@
 // var hyopValue = hypo(base , per)
 // document.write(hyopValue)
 
-    ///////=============Question # 09 ======//////
+///////=============Question # 09 ======//////
 // function rectangle(width , heigth){
 //         var A = width * heigth;
 //         return A
@@ -1540,7 +1540,7 @@
 // var h = parseInt(prompt("Enter HEIGHT"))
 // document.write(rectangle(w , h))
 
-    ///////=============Question # 10 ======//////
+///////=============Question # 10 ======//////
 
 // function pali(str){
 //     var re = /[\W]/g;
@@ -1552,7 +1552,7 @@
 
 // console.log(pali("madam"))
 
-    ///////=============Question # 11 ======//////
+///////=============Question # 11 ======//////
 
 // function foo(para){
 
@@ -1580,7 +1580,7 @@
 
 
 
-    ///////=============Question # 12 ======//////
+///////=============Question # 12 ======//////
 
 // function length(letter){
 
@@ -1596,7 +1596,7 @@
 // document.write(length("Web Development  Tutorial "))
 
 
-    ///////=============Question # 13 ======//////
+///////=============Question # 13 ======//////
 // function letterCount(str , letter){
 //     var count = 0;
 //     for(var i = 0 ; i < str.length ; i++){
@@ -1615,7 +1615,7 @@
 //                 <br> User Letter : ${userChar} <br>
 //                 word count: ${result}`)
 
-    ///////=============Question # 14 ======//////
+///////=============Question # 14 ======//////
 
 // function calcCircumference(radius){
 //         var circumference = 2*(Math.PI * radius);
@@ -1642,7 +1642,7 @@
 
 /////============ CHAPTER NO  38- 42   ========/////
 
-    ///////=============Question # 01 ======//////
+///////=============Question # 01 ======//////
 
 
 // function power(a,b){
@@ -1651,26 +1651,26 @@
 // power(2,3)
 
 
-    ///////=============Question # 02 ======//////
-    
+///////=============Question # 02 ======//////
 
 
 
 
 
- 
-    
+
+
+
 /////============ CHAPTER NO  58- 67   ========/////
 
 
-    ///////=============Question # 01 ======//////
-    
-    ///////=============PART 1 ======//////
+///////=============Question # 01 ======//////
+
+///////=============PART 1 ======//////
 
 var main_content = document.getElementById("main-content");
 // console.log(main_content)
 
-    ///////=============PART 2 ======//////
+///////=============PART 2 ======//////
 // var childNodes = main_content.getElementsByTagName("p")
 // // console.log(childNodes)
 // for(var i = 0 ; i < childNodes.length ; i++){
@@ -1678,7 +1678,7 @@ var main_content = document.getElementById("main-content");
 // }
 
 
-    ///////=============PART 3 ======//////
+///////=============PART 3 ======//////
 
 // var className = main_content.getElementsByClassName("render");
 // for(var i = 0 ; i < className.length ; i++){
@@ -1686,31 +1686,31 @@ var main_content = document.getElementById("main-content");
 // }    
 
 
-    ///////=============PART 4 ======//////
+///////=============PART 4 ======//////
 
 // var inputVAlue = document.getElementById("first-name");
 // inputVAlue.value = "Jaffar ";
-    
 
 
-    ///////=============PART 5 ======//////
+
+///////=============PART 5 ======//////
 
 
 // var lastNameVal = document.getElementById("last-name");
 // var emailVal = document.getElementById("email");
 // lastNameVal.value = "Aman ";
 // emailVal.value = "amanjaffar50@gmail.com"
-    
 
-    ///////=============QUESTION # 02 ======//////
 
-    ///////=============PART 1 ======//////
+///////=============QUESTION # 02 ======//////
+
+///////=============PART 1 ======//////
 // var formContent = document.getElementById("form-content");
 //     console.log(formContent.nodeType)
 
-    ///NODE TYPE IS 1 ////
+///NODE TYPE IS 1 ////
 
-    ///////=============PART 2 ======//////
+///////=============PART 2 ======//////
 
 // var lastName = document.getElementById("lastName");
 // console.log( "lastName node type ==>>   " + lastName.nodeType)
@@ -1720,24 +1720,116 @@ var main_content = document.getElementById("main-content");
 //     console.log(lastNameChild[i].nodeType)
 
 // }
-    
-    ///////=============PART 3 ======//////
+
+///////=============PART 3 ======//////
 // var lastName = document.getElementById("lastName");
 // console.log(lastName.childNodes)   
-    
-    
-    ///////=============PART 4 ======//////
+
+
+///////=============PART 4 ======//////
 // var main_content = document.getElementById("main-content");
 // console.log(main_content.firstChild)
 // console.log(main_content.lastChild)
 
-    ///////=============PART 5 ======//////
+///////=============PART 5 ======//////
 // var lastName = document.getElementById("lastName");
 // console.log(lastName.nextSibling)
 // console.log(lastName.previousSibling)
 
-    ///////=============PART 6 ======//////
+///////=============PART 6 ======//////
 
 // var email = document.getElementById("email");
 // console.log(email.parentNode)
 // console.log(email.parentNode.nodeType)
+
+
+
+
+////JavaScript Object Chap # 68 - All ////
+
+
+///////=============QUESTION # 01 ======//////
+
+// var itemsArray = [
+//     { name: "juice", price: "50", quantity: "3" },
+//     { name: "cookie", price: "30", quantity: "9" },
+//     { name: "shirt", price: "880", quantity: "1" },
+//     { name: "pen", price: "100", quantity: "2" }
+// ];
+
+// var item1 = itemsArray[0].price * itemsArray[0].quantity
+// var item2 = itemsArray[1].price * itemsArray[1].quantity
+// var item3 = itemsArray[2].price * itemsArray[2].quantity
+// var item4 = itemsArray[3].price * itemsArray[3].quantity
+
+// document.write(`Total Price Of Item 1: ${item1} <br />
+//                 Total Price Of Item 2: ${item2} <br />
+//                 Total Price Of Item 3: ${item3} <br />
+//                 Total Price Of Item 4: ${item4} <br />`)
+
+
+// var totalAmt = 0
+// for(var i = 0 ; i<itemsArray.length ; i++){
+ 
+//      totalAmt += itemsArray[i].price * itemsArray[i].quantity  
+    
+// }
+// document.write(`Total Amount:  ${totalAmt}`)
+
+///////=============QUESTION # 02 ======//////
+
+// var obj = {
+//     name : "Jaffar",
+//     email : "amanjaffar50@gmail.com",
+//     password : "main q batao",
+//     age : 20,
+//     gender : "Male",
+//     city : "Karachi",
+//     country : "Pakistan"
+// }
+
+// var ageCheck = "age" in obj
+// var countryCheck = "country" in obj
+// if(ageCheck){
+//     alert("Yes age prop add in Obj")
+// }
+// if(countryCheck){
+//     alert("Yes country prop add in Obj")
+
+// }
+
+// var fNameCheck = "firstName" in obj;
+// var lNameCheck = "lastName" in obj;
+// if(fNameCheck){
+//     alert("yes firstName prop is add")
+// }
+// else{
+//     alert("no FIrstName prop is not add")
+// }
+// if(lNameCheck){
+//     alert("yes lastName prop is add")
+// }
+// else{
+//     alert("no lastName prop is not add")
+// }
+
+
+///////=============QUESTION # 03 ======//////
+
+
+// function Std(name , school , age ,gender){
+//     this.name = name;
+//     this.school = school;
+//     this.age = age;
+//     this.gender = gender;
+// }
+// var std1 = new Std("Jaffar" , "Saylani" , 20 , "Male");
+// var std2 = new Std("Aman", "Saylani" , 19 , "Male");
+// var std3 = new Std("Sir Ali", "Saylani" , 30 , "Male");
+// console.log(std1)
+// console.log(std2)
+// console.log(std3)
+
+
+///////=============QUESTION # 04 ======//////
+
